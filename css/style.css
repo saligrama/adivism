@@ -10,15 +10,30 @@ body {
 .title {
     font-family: Rockwell;
     font-weight: bold;
-    font-size: 7rem;
-    margin-bottom: -1.5rem;
+    margin-bottom: -0.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 7rem;
+    }
+}
+
+.row {
+    margin-right: 0%;
 }
 
 .landing {
     background-color: #252d38;
     color: #d8dee9;
-    height: 85%;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    height: 70%;
 }
 
 .landing-subtext {
@@ -26,7 +41,7 @@ body {
 }
 
 .posts {
-    background-color: #d8dee9;
+    background-color: #bec8da;
     color: #252d38;
     padding-left: 1rem;
 }
@@ -35,6 +50,13 @@ body {
     font-family: Rockwell;
     font-size: 5rem;
 }
+
+@media (min-width: 768px) {
+    .card {
+        min-height: 370px;
+    }
+}
+
 
 .btn-outline-warning {
     background-color: #00000000;
