@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    font-family: Futura PT, sans-serif;
+    font-family: futura-pt, sans-serif;
 }
 
 .title {
@@ -32,8 +32,19 @@ body {
 .landing {
     background-color: #252d38;
     color: #d8dee9;
-    padding-left: 0.5rem;
     height: 70%;
+}
+
+@media (max-width: 767.98px) {
+    .landing {
+        padding-left: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .landing {
+        padding-left: 1rem;
+    }
 }
 
 .landing-subtext {
@@ -75,4 +86,36 @@ body {
     background-color: #ad824e !important;
     border-color: #ad824e !important;
     box-shadow: 0 0 0 0.2rem rgba(213,160,33, 0.5) !important;
+}
+
+.navbar {
+    background-color: #252d38;
+}
+
+.navbar-brand {
+    padding-right: 1em;
+}
+
+.as-nav-icon {
+    color: White;
+    font-size: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+@media (max-width: 767.98px) {
+    .caption {
+        margin-top: 0.2em;
+    }
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.sources {
+    list-style-type:none;
+    padding-left:2.5em;
+    text-indent:-1.5em;
 }
